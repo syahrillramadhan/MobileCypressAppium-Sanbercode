@@ -1,5 +1,5 @@
 # Tugas-Akhir-Task-2
-Tugas Akhir Task 2 - Mobile Automation (SanberCode) - Alfaresta
+Tugas Akhir Task 2 - Mobile Automation (SanberCode - Alfaresta)
 <br>
 Scenario test case: Soon
 <br>
