@@ -19,8 +19,8 @@ Install
 ```
 <br>
 How to run
-1. Connect to your device android or IOS
-2. Setup desired capabilities in file wdio.conf.js
+1. Connect to your device android or IOS<br>
+2. Setup desired capabilities in file wdio.conf.js<br>
 3. Run test
 ```
   npm run wdio
