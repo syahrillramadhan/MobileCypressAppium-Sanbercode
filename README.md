@@ -23,5 +23,5 @@ How to run<br>
 2. Setup desired capabilities in file wdio.conf.js<br>
 3. Run test
 ```
-  npm run wdio
+npm run wdio
 ```
