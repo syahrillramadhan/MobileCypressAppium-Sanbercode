@@ -1,33 +1,36 @@
-describe('Open Application',() => {
-  it('should open apps', async() => {
-      await $('//*[@text="Welcome..."]').click();
+describe('User Open Application',() => {
+  it('User can open diet meal apps ', async() => {
+      await expect($('[text="Welcome..."]')).toHaveText("Welcome...");
+      await expect($('[id="com.fghilmany.dietmealapp:id/tv_header_desc"]')).toHaveText("Isi formulir untuk membuat/menambahkan user");      
   })
 })
-describe('Submit User Form Data',() => {
-  it('input field name: Alfaresta', async() => {
-      await $('//*[@text="Name"]').setValue("Alfaresta");
+
+describe('User Submit Form Data Application',() => {
+  it('User can input field name: Alfaresta', async() => {
+      await $('[text="Name"]').setValue("Alfaresta");
   })
-  it('input field weight: 50', async() => {
-      await $('//*[@text="Weight"]').setValue(50);
+  it('User can input field weight: 50', async() => {
+      await $('[text="Weight"]').setValue(50);
   })
-  it('input field height: 165', async() => {
-      await $('//*[@text="Height"]').setValue(165);
+  it('User can input field height: 165', async() => {
+      await $('[text="Height"]').setValue(165);
   })
-  it('click choose field gender: Male', async() => {
-      await $('//*[@text="Male"]').click();
+  it('User can click choose option gender: Male', async() => {
+      await $('[id="com.fghilmany.dietmealapp:id/rb_male"]').click();
   })
-  it('click button NEXT', async() => {
-      await $('//*[@text="NEXT"]').click();
+  it('User can click button "NEXT"', async() => {
+      await $('[id="com.fghilmany.dietmealapp:id/bt_next"]').click();
+      await expect($('[id="com.fghilmany.dietmealapp:id/tv_header_desc"]')).toHaveText("Isi formulir untuk membuat/menambahkan user"); 
+      await expect($('[id="com.fghilmany.dietmealapp:id/title_activity"]')).toHaveText("Aktivitas sehari-hari"); 
   })
 })
-describe('Submit User Form Data Page 2',() => {
-  it('click choose field aktivitas sehari-hari', async() => {
-      await $('//*[@text="Menulis, Mengetik, dsj."]').click();
+
+describe('User Submit Form Activity',() => {
+  it('User can choose option aktivitas sehari-hari', async() => {
+      await $('[text="Sekolah, Kuliah, Kerja Kantor, dsj."]').click();
   })
-  it('click button SELESAI', async() => {
-      await $('//*[@text="SELESAI"]').click();
-  })
-  it('validate home screen diet meal app', async() => {
-      await expect($('//*[@text="Ready to some calories today?"]')).toHaveText("Ready to some calories today?");
-  })
+  it('User can click button "SELESAI"', async() => {
+      await $('[id="com.fghilmany.dietmealapp:id/bt_finish"]').click();
+      await expect($('[text="Ready to some calories today?"]')).toHaveText("Ready to some calories today?");
+  })  
 })

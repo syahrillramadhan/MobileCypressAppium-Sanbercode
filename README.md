@@ -1,7 +1,7 @@
 # Tugas-Akhir-Task-2
 Tugas Akhir Task 2 - Mobile Automation (SanberCode - Alfaresta)
 <br>
-Scenario test case: Soon
+Scenario test case: https://docs.google.com/spreadsheets/d/1SM-Xelf_E1cV77YEnRQscFLYOuErN1rs5esZf1j3DSU/edit?usp=sharing
 <br>
 Recording: Soon
 <br>
