@@ -3,7 +3,7 @@ Tugas Akhir Task 2 - Mobile Automation (SanberCode - Alfaresta)
 <br>
 Scenario test case: https://docs.google.com/spreadsheets/d/1SM-Xelf_E1cV77YEnRQscFLYOuErN1rs5esZf1j3DSU/edit?usp=sharing
 <br>
-Recording: Soon
+Recording: https://drive.google.com/file/d/1sE_mc3tnOr2LpWLqbgC9gofajSTBnMeS/view?usp=sharing
 <br>
 How to Start
 <br>
