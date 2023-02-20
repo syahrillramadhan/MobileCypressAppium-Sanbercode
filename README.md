@@ -19,7 +19,7 @@ Install
 ```
 
 How to run 
-1. Connect to your device android or IOS
+1. Connect to your device android
 2. Setup desired capabilities in file wdio.conf.js
 3. Run test
 
