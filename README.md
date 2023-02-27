@@ -1,12 +1,13 @@
 # Tugas-Akhir-Task-2
-Tugas Akhir Task 2 - Mobile Automation (SanberCode - Alfaresta)
+## Mobile Apps Automation Using Appium Cypress
+
+## Documentation
+Scenario test case: 
+Recording: 
+https://drive.google.com/file/d/1jySfCmnjtp_G7wtGwhxOT5kl10YqLzqm/view?usp=sharing
+
 <br>
-Scenario test case: https://docs.google.com/spreadsheets/d/1SM-Xelf_E1cV77YEnRQscFLYOuErN1rs5esZf1j3DSU/edit?usp=sharing
-<br>
-Recording: https://drive.google.com/file/d/1sE_mc3tnOr2LpWLqbgC9gofajSTBnMeS/view?usp=sharing
-<br>
-How to Start
-<br>
+## How to Start
 Install 
 1. Node JS
 2. Java SDK & JAVA_HOME

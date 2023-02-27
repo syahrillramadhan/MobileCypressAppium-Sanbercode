@@ -6,10 +6,10 @@ describe('User Open Application',() => {
 })
 
 describe('User Submit Form Data Application',() => {
-  it('User can input field name: Alfaresta', async() => {
-      await $('[text="Name"]').setValue("Alfaresta");
+  it('User can input field name: Syahril', async() => {
+      await $('[text="Name"]').setValue("Syahril");
   })
-  it('User can input field weight: 50', async() => {
+  it('User can input field weight: 53', async() => {
       await $('[text="Weight"]').setValue(50);
   })
   it('User can input field height: 165', async() => {
@@ -25,7 +25,7 @@ describe('User Submit Form Data Application',() => {
   })
 })
 
-describe('User Submit Form Activity',() => {
+describe('User can submit Form Activity',() => {
   it('User can choose option aktivitas sehari-hari', async() => {
       await $('[text="Sekolah, Kuliah, Kerja Kantor, dsj."]').click();
   })
